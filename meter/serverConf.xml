@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<ServerCore name="">
+    <appSettings testName="NoName">
+        <enableLogs>true</enableLogs>
+        <waitBetweenMeters>0</waitBetweenMeters>
+        <logDevice>TestsSeparate</logDevice>
+        <logINFO>true</logINFO>
+        <logERROR>true</logERROR>
+        <logADDITIONAL>false</logADDITIONAL>
+        <logTRANSMISSION>true</logTRANSMISSION>
+        <logDATA>true</logDATA>
+        <traceConsoleLevel>INFO</traceConsoleLevel>
+        <traceGuiLevel>INFO</traceGuiLevel>
+        <logConsoleToFile>true</logConsoleToFile>
+    </appSettings>
+    <meters>
+        <meterDefinition xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="defineSpecificMeters">
+            <meterList>
+                <meter meterName="VUTWRAP00001">
+                    <preferedPort>4060</preferedPort>
+                    <useSamePort>false</useSamePort>
+                    <serialNumber>1</serialNumber>
+                    <LNrefrencing>true</LNrefrencing>
+                    <interface>WRAPPER</interface>
+                    <objectsFile></objectsFile>
+                    <WRAPsetup>
+                        <logicalName>0.0.25.0.0.255</logicalName>
+                        <objectType>TCP_UDP_SETUP</objectType>
+                        <shortName>0</shortName>
+                        <version>0</version>
+                        <inactivityTimeout>60</inactivityTimeout>
+                        <maximumSegmentSize>576</maximumSegmentSize>
+                        <maximumSimultaneousConnections>0</maximumSimultaneousConnections>
+                        <port>4059</port>
+                    </WRAPsetup>
+                    <useCustomSetObjects>true</useCustomSetObjects>
+                    <addMissingBasicObjects>true</addMissingBasicObjects>
+                    <systemTitle/>
+                    <security>ENCRYPTION</security>
+                    <securitySuite>AES_GCM_128</securitySuite>
+                    <authenticationKey>VUTBRAuthKohout1</authenticationKey>
+                    <blockCipherKey>ABCD1234VUTBR123</blockCipherKey>
+                    <dedicatedKey/>
+                    <StoCchallenge/>
+                    <checkClientID>true</checkClientID>
+                    <checkServerID>true</checkServerID>
+                    <checkAuthentication>true</checkAuthentication>
+                    <checkAtributeAccess>true</checkAtributeAccess>
+                    <checkMethodAccess>true</checkMethodAccess>
+                </meter>
+            </meterList>
+        </meterDefinition>
+    </meters>
+</ServerCore>

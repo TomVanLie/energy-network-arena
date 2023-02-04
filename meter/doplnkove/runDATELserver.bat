@@ -1,0 +1,1 @@
+java -jar DATEL-1.4.0-Server.jar SO -w=1 -h=1 -f ZPANONE.xml -c serverConf.xml -v
