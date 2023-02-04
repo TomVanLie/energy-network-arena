@@ -1,0 +1,4 @@
+AuthType Basic
+AuthName "Concentrator Administration"
+AuthUserFile /absolute/path/to/.htpasswd
+Require valid-user
