@@ -1,1 +1,1 @@
-java -jar client-gx-example.jar -h localhost -p 4059 -c 17 -n 20 -r ln -i WRAPPER -a Low -P wwwwwwwwwwwwwwww -t Verbose -g "0.0.1.0.0.255:2"
+java -jar client-gx-example.jar -h 192.168.56.10 -p 4059 -c 17 -n 20 -r ln -i WRAPPER -a Low -P wwwwwwwwwwwwwwww -t Verbose -g "0.0.1.0.0.255:2"
