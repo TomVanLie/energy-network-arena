@@ -1,0 +1,1 @@
+sh runCMDclient.bat
