@@ -146,7 +146,7 @@
         </button>
       </div>
     </div>
-    <canvas class="my-4 w-100" id="myChart" width="900" height="380"></canvas>
+    <canvas class="my-4 w-100" id="myChart" width="900" height="180"></canvas>
 
     <h2>Connected devices</h2>
     <div class="table-responsive">
@@ -163,7 +163,7 @@
         <tbody>
         <tr>
           <td>1</td>
-          <td>TestMeter_0fa4c8</td>
+          <td>VUTWRAP00020</td>
           <td>192.168.56.10</td>
           <td>4059</td>
           <td>Low</td>
