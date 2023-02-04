@@ -6,12 +6,12 @@
     <meta name="description" content="">
     <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
     <meta name="generator" content="Hugo 0.108.0">
-    <title>Concentrator</title>
+    <title>Meter</title>
 
     <link rel="canonical" href="https://getbootstrap.com/docs/5.3/examples/headers/">
 
 
-<link href="./assets/dist/css/bootstrap.min.css" rel="stylesheet">
+<link href="assets/dist/css/bootstrap.min.css" rel="stylesheet">
 
     <style>
       .bd-placeholder-img {
@@ -98,7 +98,7 @@
       <div class="container">
         <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
           <a href="/" class="d-flex align-items-center my-2 my-lg-0 me-lg-auto text-white text-decoration-none">
-            <h2>Concentrator</h2>
+            <h2>Meter</h2>
           </a>
 
           <ul class="nav col-12 col-lg-auto my-2 justify-content-center my-md-0 text-small">
@@ -109,19 +109,7 @@
               </a>
             </li>
             <li>
-              <a href="./admin/" class="nav-link text-white">
-                <svg class="bi d-block mx-auto mb-1" width="24" height="24"><use xlink:href="#table"/></svg>
-                TOU Table
-              </a>
-            </li>
-            <li>
-              <a href="./admin/" class="nav-link text-white">
-                <svg class="bi d-block mx-auto mb-1" width="24" height="24"><use xlink:href="#grid"/></svg>
-                Apps
-              </a>
-            </li>
-            <li>
-              <a href="./admin/" class="nav-link text-white">
+              <a href="admin" class="nav-link text-white">
                 <svg class="bi d-block mx-auto mb-1" width="24" height="24"><use xlink:href="#people-circle"/></svg>
                 Admin
               </a>
@@ -137,78 +125,48 @@
       <h1 class="h2">Dashboard</h1>
       <div class="btn-toolbar mb-2 mb-md-0">
         <div class="btn-group me-2">
-          <button type="button" class="btn btn-sm btn-outline-secondary">Share</button>
           <button type="button" class="btn btn-sm btn-outline-secondary">Export</button>
         </div>
-        <button type="button" class="btn btn-sm btn-outline-secondary dropdown-toggle">
-          <span data-feather="calendar" class="align-text-bottom"></span>
-          This week
-        </button>
       </div>
     </div>
-    <canvas class="my-4 w-100" id="myChart" width="900" height="180"></canvas>
 
-    <h2>Connected devices</h2>
+    <h2>Device Parameters</h2>
     <div class="table-responsive">
       <table class="table table-striped table-sm">
         <thead>
         <tr>
-          <th scope="col">ID</th>
-          <th scope="col">Logical Name</th>
-          <th scope="col">IP Address</th>
-          <th scope="col">Port</th>
-          <th scope="col">Security Suite</th>
+          <th scope="col">parameter</th>
+          <th scope="col">value</th>
         </tr>
         </thead>
         <tbody>
         <tr>
-          <td>1</td>
-          <td>VUTWRAP00020</td>
-          <td>192.168.56.10</td>
-          <td>4059</td>
-          <td>Low</td>
+          <td>Logical Name</td>
+          <td>TestMeter_0fa4c8</td>
         </tr>
         <tr>
           <td>1000</td>
           <td>Corinex_ad3f7a</td>
-          <td>10.0.80.31</td>
-          <td>4059</td>
-          <td>High</td>
         </tr>
         <tr>
           <td>1001</td>
           <td>Corinex_1c9da6</td>
-          <td>10.0.80.32</td>
-          <td>4059</td>
-          <td>High</td>
         </tr>
         <tr>
           <td>1002</td>
           <td>Corinex_717a61</td>
-          <td>10.0.80.33</td>
-          <td>4059</td>
-          <td>High</td>
         </tr>
         <tr>
           <td>1003</td>
           <td>Corinex_1d75a9</td>
-          <td>10.0.80.34</td>
-          <td>4059</td>
-          <td>High</td>
         </tr>
         <tr>
           <td>1004</td>
           <td>Corinex_001a8d</td>
-          <td>10.0.80.35</td>
-          <td>4059</td>
-          <td>High</td>
         </tr>
         <tr>
           <td>1005</td>
           <td>Corinex_d86ad4</td>
-          <td>10.0.80.36</td>
-          <td>4059</td>
-          <td>High</td>
         </tr>
 
         </tbody>
@@ -221,9 +179,7 @@
 </main>
 
 
-    <script src="./assets/dist/js/bootstrap.bundle.min.js"></script>
-
-<script src="https://cdn.jsdelivr.net/npm/feather-icons@4.28.0/dist/feather.min.js" integrity="sha384-uO3SXW5IuS1ZpFPKugNNWqTZRRglnUJK6UAZ/gxOX80nxEkN9NcGZTftn6RzhGWE" crossorigin="anonymous"></script><script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.4/dist/Chart.min.js" integrity="sha384-zNy6FEbO50N+Cg5wap8IKA4M/ZnLJgzc6w2NqACZaK0u0FXfOWRRJOnQtpZun8ha" crossorigin="anonymous"></script><script src="dashboard.js"></script>
+    <script src="assets/dist/js/bootstrap.bundle.min.js"></script>
 
 
   </body>
