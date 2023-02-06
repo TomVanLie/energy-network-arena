@@ -110,12 +110,6 @@
             </li>
             <li>
               <a href="admin" class="nav-link text-white">
-                <svg class="bi d-block mx-auto mb-1" width="24" height="24"><use xlink:href="#table"/></svg>
-                TOU Table
-              </a>
-            </li>
-            <li>
-              <a href="admin" class="nav-link text-white">
                 <svg class="bi d-block mx-auto mb-1" width="24" height="24"><use xlink:href="#grid"/></svg>
                 Apps
               </a>
@@ -157,7 +151,8 @@
           <th scope="col">Logical Name</th>
           <th scope="col">IP Address</th>
           <th scope="col">Port</th>
-          <th scope="col">Security Suite</th>
+          <th scope="col">Auth</th>
+          <th scope="col">Assoc. Object</th>
         </tr>
         </thead>
         <tbody>
@@ -167,6 +162,7 @@
           <td>192.168.56.10</td>
           <td>4059</td>
           <td>Low</td>
+          <td>0.0.40.0.0.255</td>
         </tr>
         <tr>
           <td>1000</td>
@@ -174,6 +170,7 @@
           <td>10.0.80.31</td>
           <td>4059</td>
           <td>High</td>
+            <td>0.0.40.0.1.255</td>
         </tr>
         <tr>
           <td>1001</td>
@@ -181,6 +178,7 @@
           <td>10.0.80.32</td>
           <td>4059</td>
           <td>High</td>
+            <td>0.0.40.0.1.255</td>
         </tr>
         <tr>
           <td>1002</td>
@@ -188,6 +186,7 @@
           <td>10.0.80.33</td>
           <td>4059</td>
           <td>High</td>
+            <td>0.0.40.0.1.255</td>
         </tr>
         <tr>
           <td>1003</td>
@@ -195,6 +194,7 @@
           <td>10.0.80.34</td>
           <td>4059</td>
           <td>High</td>
+            <td>0.0.40.0.1.255</td>
         </tr>
         <tr>
           <td>1004</td>
@@ -202,6 +202,7 @@
           <td>10.0.80.35</td>
           <td>4059</td>
           <td>High</td>
+            <td>0.0.40.0.1.255</td>
         </tr>
         <tr>
           <td>1005</td>
@@ -209,6 +210,7 @@
           <td>10.0.80.36</td>
           <td>4059</td>
           <td>High</td>
+            <td>0.0.40.0.1.255</td>
         </tr>
 
         </tbody>

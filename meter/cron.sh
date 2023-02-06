@@ -1,1 +1,1 @@
-java -jar DATEL-1.4.0-Server.jar SO -w=1 -f Corinex-Cloned-Custom.xml -c serverConf.xml -v -r
+java -jar DATEL-1.4.0-Server-osf.jar SO -w=1 -f Corinex-Cloned-Custom.xml -c serverConf.xml -v -r -osf www

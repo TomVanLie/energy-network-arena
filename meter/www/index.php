@@ -108,6 +108,12 @@
                 Dashboard
               </a>
             </li>
+              <li>
+                  <a href="admin" class="nav-link text-white">
+                      <svg class="bi d-block mx-auto mb-1" width="24" height="24"><use xlink:href="#table"/></svg>
+                      TOU Table
+                  </a>
+              </li>
             <li>
               <a href="admin" class="nav-link text-white">
                 <svg class="bi d-block mx-auto mb-1" width="24" height="24"><use xlink:href="#people-circle"/></svg>
@@ -135,38 +141,22 @@
       <table class="table table-striped table-sm">
         <thead>
         <tr>
-          <th scope="col">parameter</th>
-          <th scope="col">value</th>
+          <th scope="col">Parameter</th>
+          <th scope="col">Value</th>
         </tr>
         </thead>
         <tbody>
         <tr>
           <td>Logical Name</td>
-          <td>TestMeter_0fa4c8</td>
+          <td>VUTWRAP00030</td>
         </tr>
         <tr>
-          <td>1000</td>
-          <td>Corinex_ad3f7a</td>
+          <td>IP</td>
+          <td>192.168.56.10</td>
         </tr>
         <tr>
-          <td>1001</td>
-          <td>Corinex_1c9da6</td>
-        </tr>
-        <tr>
-          <td>1002</td>
-          <td>Corinex_717a61</td>
-        </tr>
-        <tr>
-          <td>1003</td>
-          <td>Corinex_1d75a9</td>
-        </tr>
-        <tr>
-          <td>1004</td>
-          <td>Corinex_001a8d</td>
-        </tr>
-        <tr>
-          <td>1005</td>
-          <td>Corinex_d86ad4</td>
+            <td>DLMS Port</td>
+            <td>4059</td>
         </tr>
 
         </tbody>
