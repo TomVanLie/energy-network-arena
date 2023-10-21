@@ -164,6 +164,7 @@
           <td>Low</td>
           <td>0.0.40.0.0.255</td>
         </tr>
+        <?php /*?>
         <tr>
           <td>1000</td>
           <td>Corinex_ad3f7a</td>
@@ -212,7 +213,7 @@
           <td>High</td>
             <td>0.0.40.0.1.255</td>
         </tr>
-
+        <?php */ ?>
         </tbody>
       </table>
     </div>
