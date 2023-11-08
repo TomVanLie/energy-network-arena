@@ -1,0 +1,8 @@
+[Unit]
+Description=DATEL DLMS Server
+
+[Service]
+ExecStart=/var/DATEL_Server/run-egdTest.sh
+
+[Install]
+WantedBy=multi-user.target
