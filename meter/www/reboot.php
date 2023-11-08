@@ -1,4 +1,4 @@
 <?php
-$output = shell_exec('systemctl restart datel');
+$output = shell_exec('sudo systemctl restart datel');
 echo "<pre>$output</pre>";
 ?>
