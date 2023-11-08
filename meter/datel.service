@@ -2,7 +2,7 @@
 Description=DATEL DLMS Server
 
 [Service]
-ExecStart=/var/DATEL_Server/run-egdTest.sh
+ExecStart=/var/energy-network-arena/meter/service.sh
 
 [Install]
 WantedBy=multi-user.target
