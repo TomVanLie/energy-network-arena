@@ -3,6 +3,8 @@ Description=DATEL DLMS Server
 
 [Service]
 ExecStart=/var/energy-network-arena/meter/service.sh
+StandardOutput=append:/var/log/datel/info.log
+StandardError=append:/var/log/datel/error.log
 
 [Install]
 WantedBy=multi-user.target
