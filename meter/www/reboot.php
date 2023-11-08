@@ -1,4 +1,6 @@
 <?php
-$output = shell_exec('sudo systemctl restart datel');
-echo "<pre>$output</pre>";
+if(shell_exec('sudo systemctl restart datel')){
+    echo 'Success. <a href="index.php">Go Back</a>';
+}
+
 ?>
