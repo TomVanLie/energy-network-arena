@@ -1,5 +1,25 @@
 <?php
 include("./dlms.php");
+
+// Constants
+define('START_TIME', 1710000000);
+define('TIME_INTERVAL', 3000);
+$desired_length = 8;
+
+// Calculate consumption
+$consumption = (time() - START_TIME) / TIME_INTERVAL;
+
+// Format number
+$number_str = number_format($consumption, 1);
+
+// Pad number if needed
+$display_consumption = str_pad($number_str, $desired_length, '0', STR_PAD_LEFT);
+
+// Ensure one decimal number
+if (strpos($display_consumption, '.') === false) {
+    $display_consumption .= '.0';
+}
+
 ?>
 <html>
 <head>
@@ -138,7 +158,7 @@ include("./dlms.php");
         <h2>VUT Meter ID VUTWRAP00030</h2>
     </div>
     <div id="display">
-        000040.3 kWh<br>
+        <?php echo $display_consumption;?> kWh<br>
         0.0.24.4.0.255
     </div>
     <div class="leds">
