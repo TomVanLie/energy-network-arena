@@ -179,6 +179,6 @@ include("./dlms.php");
             <div class="inside-button"></div>
         </div>
     </div>
-    <div id="bottom-cover"><?php echo breaker_status()? "" : "flag{odpojilJsemElektromer2023}" ?></div>
+    <div id="bottom-cover"><?php echo breaker_status()? "" : "flag{Amper2024}" ?></div>
 </div>
 </body>

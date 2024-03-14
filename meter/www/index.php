@@ -186,7 +186,7 @@
         </tr>
         <tr>
             <td>Breaker</td>
-            <td><?php echo breaker_status() ? "Connected" : "Disconnected";?> <?php echo breaker_status()? "" : "<span style='color: red;'>flag{odpojilJsemElektromer2023}</span>" ?></td>
+            <td><?php echo breaker_status() ? "Connected" : "Disconnected";?> <?php echo breaker_status()? "" : "<span style='color: red;'>flag{Amper2024}</span>" ?></td>
         </tr>
 
         </tbody>
