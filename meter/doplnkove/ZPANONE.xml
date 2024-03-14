@@ -51295,7 +51295,7 @@
       <AuthenticationMechanismName>2</AuthenticationMechanismName>
       <MechanismId>1</MechanismId>
     </AuthenticationMechanismName>
-    <Secret>61 6d 70 65 72 61 6d 70 65 72 61 6d 70 65 31</Secret>
+    <Secret>61 6d 70 65 72 61 6d 70 65 72 61 6d 70 65 72 31</Secret>
     <AssociationStatus>0</AssociationStatus>
     <SecuritySetupReference></SecuritySetupReference>
   </GXDLMSAssociationLogicalName>
