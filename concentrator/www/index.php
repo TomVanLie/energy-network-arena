@@ -164,56 +164,54 @@
           <td>Low</td>
           <td>0.0.40.0.0.255</td>
         </tr>
-        <?php /*?>
         <tr>
-          <td>1000</td>
-          <td>Corinex_ad3f7a</td>
-          <td>10.0.80.31</td>
-          <td>4059</td>
+          <td>10001</td>
+          <td>Smeterx_ad3f7a</td>
+          <td>147.229.149.250</td>
+          <td>10001</td>
           <td>High</td>
             <td>0.0.40.0.1.255</td>
         </tr>
         <tr>
-          <td>1001</td>
-          <td>Corinex_1c9da6</td>
-          <td>10.0.80.32</td>
-          <td>4059</td>
+          <td>10002</td>
+          <td>Smeterx_1c9da6</td>
+          <td>147.229.149.250</td>
+          <td>10002</td>
           <td>High</td>
             <td>0.0.40.0.1.255</td>
         </tr>
         <tr>
-          <td>1002</td>
-          <td>Corinex_717a61</td>
-          <td>10.0.80.33</td>
-          <td>4059</td>
+          <td>10003</td>
+          <td>Smeterx_717a61</td>
+          <td>147.229.149.250</td>
+          <td>10003</td>
           <td>High</td>
             <td>0.0.40.0.1.255</td>
         </tr>
         <tr>
-          <td>1003</td>
-          <td>Corinex_1d75a9</td>
-          <td>10.0.80.34</td>
-          <td>4059</td>
+          <td>10004</td>
+          <td>Smeterx_1d75a9</td>
+          <td>147.229.149.250</td>
+          <td>10004</td>
           <td>High</td>
             <td>0.0.40.0.1.255</td>
         </tr>
         <tr>
-          <td>1004</td>
-          <td>Corinex_001a8d</td>
-          <td>10.0.80.35</td>
-          <td>4059</td>
+          <td>10005</td>
+          <td>Smeterx_001a8d</td>
+          <td>147.229.149.250</td>
+          <td>10005</td>
           <td>High</td>
             <td>0.0.40.0.1.255</td>
         </tr>
         <tr>
-          <td>1005</td>
-          <td>Corinex_d86ad4</td>
-          <td>10.0.80.36</td>
-          <td>4059</td>
+          <td>10006</td>
+          <td>Smeterx_d86ad4</td>
+          <td>147.229.149.250</td>
+          <td>10006</td>
           <td>High</td>
             <td>0.0.40.0.1.255</td>
         </tr>
-        <?php */ ?>
         </tbody>
       </table>
     </div>
