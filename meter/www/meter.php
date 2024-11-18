@@ -199,6 +199,6 @@ if (strpos($display_consumption, '.') === false) {
             <div class="inside-button"></div>
         </div>
     </div>
-    <div id="bottom-cover"><?php echo breaker_status()? "" : "flag{Aero2024NaVUT}" ?></div>
+    <div id="bottom-cover"><?php echo breaker_status()? "" : "flag{OdpojeniByloUspesne}" ?></div>
 </div>
 </body>
